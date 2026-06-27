@@ -1,0 +1,21 @@
+%%  例2.24 subplot %%
+x = -4:0.5:4;
+y = exp(x);
+subplot(3,2,1)
+bar(x,y)
+title('bar(x,y)')
+subplot(3,2,2)
+stem(x,y)
+title('stem(x,y)')
+subplot(3,2,3)
+stairs(x,y)
+title('stairs(x,y)')
+subplot(3,2,4)
+polarplot(x,y)
+title('polar(x,y)')
+subplot(3,2,5)
+loglog(x,y)
+title('loglog(x,y)')
+subplot(3,2,6)
+area(x,y)
+title('area(x,y)')
