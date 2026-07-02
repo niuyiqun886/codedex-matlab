@@ -7,6 +7,7 @@ __MWOPC_PACKAGE_BEGIN__ R2023b
 __MWOPC_PART_BEGIN__ /[Content_Types].xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default ContentType="image/png" Extension="png"/>
   <Default ContentType="application/vnd.openxmlformats-package.relationships+xml" Extension="rels"/>
   <Default ContentType="application/vnd.mathworks.simulink.mdl+xml" Extension="xml"/>
   <Override ContentType="application/vnd.openxmlformats-package.core-properties+xml" PartName="/metadata/coreProperties.xml"/>
@@ -40,10 +41,10 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <cp:category>model</cp:category>
-  <dcterms:created xsi:type="dcterms:W3CDTF">2026-07-01T13:27:29Z</dcterms:created>
+  <dcterms:created xsi:type="dcterms:W3CDTF">2026-07-02T03:13:50Z</dcterms:created>
   <dc:creator>86186</dc:creator>
   <cp:lastModifiedBy>86186</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-07-02T03:13:42Z</dcterms:modified>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-07-02T11:10:51Z</dcterms:modified>
   <cp:revision>1.3</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
@@ -82,6 +83,7 @@ __MWOPC_PART_BEGIN__ /simulink/_rels/blockdiagram.xml.rels
   <Relationship Id="hdlParams" Target="hdlParams.xml" Type="http://schemas.mathworks.com/simulink/2021/relationships/hdlParams"/>
   <Relationship Id="system_root" Target="systems/system_root.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
   <Relationship Id="windowsInfo" Target="windowsInfo.xml" Type="http://schemas.mathworks.com/simulinkModel/2019/relationships/windowsInfo"/>
+  <Relationship Id="x_simulink_resources_mwimg_cc4d84ca_4e5b_4431_a94a_10b1eb69799b" Target="resources/mwimg_cc4d84ca-4e5b-4431-a94a-10b1eb69799b.png" Type="http://schemas.mathworks.com/simulinkModel/2010/relationships/resources"/>
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/_rels/configSetInfo.xml.rels
@@ -106,7 +108,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInformation Version="1.0">
   <Model>
-    <P Name="ModelUUID">c4cfadfc-64fa-4481-b81c-efd1208db62a</P>
+    <P Name="ModelUUID">32d1441a-6149-49fc-9099-d9ae8546047d</P>
     <P Name="LastSavedArchitecture">win64</P>
     <P Name="HideAutomaticNames">off</P>
     <ConfigManagerSettings>
@@ -154,11 +156,11 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="Description"/>
         <P Name="Components" Class="double">[]</P>
         <P Name="StartTime">0.0</P>
-        <P Name="StopTime">50</P>
+        <P Name="StopTime">20</P>
         <P Name="AbsTol">auto</P>
         <P Name="AutoScaleAbsTol">on</P>
         <P Name="FixedStep">auto</P>
-        <P Name="InitialStep">0.01</P>
+        <P Name="InitialStep">auto</P>
         <P Name="MaxOrder">5</P>
         <P Name="ZcThreshold">auto</P>
         <P Name="ConsecutiveZCsStepRelTol">10*128*eps</P>
@@ -168,7 +170,7 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="MaxStep">0.1</P>
         <P Name="MinStep">auto</P>
         <P Name="MaxConsecutiveMinStep">1</P>
-        <P Name="RelTol">1e-3</P>
+        <P Name="RelTol">1e-6</P>
         <P Name="EnableMultiTasking">off</P>
         <P Name="AllowMultiTaskInputOutput">off</P>
         <P Name="ConcurrentTasks">off</P>
@@ -895,7 +897,7 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
     </Array>
     <P Name="Name">Configuration</P>
     <P Name="CurrentDlgPage">Solver</P>
-    <P Name="ConfigPrmDlgPosition">[ 555, 370, 900, 710 ]</P>
+    <P Name="ConfigPrmDlgPosition">[ 614, 362, 900, 710 ]</P>
     <P Name="ExtraOptions"/>
   </Object>
 </ConfigSet>
@@ -944,10 +946,300 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="20066f79-9189-413d-85fc-91d35570cd3b">
-    <Interface type="Interface" uuid="ef26c7b2-a4b4-4330-9dcc-301c13870a67"/>
+  <System type="System" uuid="c8d54239-88b7-4437-ad37-f0ff2afe627d">
+    <Interface type="Interface" uuid="84b4baf0-8079-4263-b651-e5e0e88d0eeb"/>
   </System>
 </MF0>
+__MWOPC_PART_BEGIN__ /simulink/resources/mwimg_cc4d84ca-4e5b-4431-a94a-10b1eb69799b.png BASE64
+iVBORw0KGgoAAAANSUhEUgAABC4AAAMTCAIAAADhDsEMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAg
+AElEQVR4nOzdb2xU950v/sOMTYiIcRtVDYVtZoyUlJDbbapC/m1TD9HWkcoqElLyoO29wiSlTVNV
+Wu2DrZBSOdYi9cFe6VbViu5t1QBqpGilK7GbpK0KBMaNmkZAlduQKhdIyMyClx8qoWkCdYM9M78H
+h7qObYx9PDPfmTmvlyo0jMczHz6kPt833z9nyYULF6rVaqVS+c1vfnPnnXdGAAAADXb48OGuqb//
+93//93DFAAAAabFq1aoPRJEtW7aEKwYAAEiL/fv3fyCK3HbbbeGKAQAA2tvrr79+zUzx+uuv/+EP
+f4iiqGvu1wEAAMzf66+/Ps9XiiIAAEDdTJsVmTlPMplVMs0tDAAASIs4dVxtnkQUAQAA6m9qApk1
+jYgiAABAQ8RLs662kV0UAQAA6m9qApk1jYgiAABAAIs9QWvbtm1r1qypUzEAAEC72r59+6zbQq62
+bX2xUWTNmjWbN29e5Juk0N69e/VtoTQtAU1LQNMS0LRk9C0BTUtA0xLQtGTWrl07z3umv/zyyxZo
+AQAA9fGd73xnQa8XRQAAgABEEQAAIIBMrVar1WqhywAAANLFrAgAABCAKAIAAAQgigAAAAGIIgAA
+QACiCAAAEIAoEsaRI0dCl9B+NC0BTUtA0xLQtGT0LQFNS0DTEtC05hBFwjh69GjoEtqPpiWgaQlo
+WgKaloy+JaBpCWhaAprWHKIIAAAQgCgCAAAEIIoAAAABiCIAAEAAoggAABCAKAIAAAQgigAAAAGI
+IgAAQACiCAAAEIAoAgAABCCKAAAAAYgiAABAAKIIAAAQgCgCAAAEIIoAAAABiCIAAEAAoggAABCA
+KAIAAAQgigAAAAGIIgAAQACiCAAAEIAoAgAABCCKAAAAAYgiAABAAKIIAAAQgCgCAAAEIIoAAAAB
+iCIAAEAAoggAABCAKAIAAAQgigAAAAGIIgAAQACZWq1Wq9Wq1Wq1Wg1dDAAAkArVanX2WZFMJrNt
+27ZsNjvt+b6+vscee+wf//EfP//5zzelQgAAoDPNEkV6e3sfeeSRNWvWTHt++fLlDz300DPPPPPP
+//zP+Xz+1ltvbVaRAABAp+ma+dR999334osvrly5ctrzt9xyy6uvvvruu+8uWbLkqaeesqALAABI
+bJYo8vzzz8/60r6+viiKvv71r2cymYsXLz799NMTExONrxAAAOhAs0SROXzsYx/7/ve/X6vVHn74
+4TvvvPOll16Komjv3r1zfMuRI0eOHj266Do7zbp160KX0H40LQFNS0DTEtC0ZPQtAU1LQNMS0LRZ
+rV+/fsOGDXV8wwVEkYsXL46OjtZqtSiKTp48GU+SRFG0efPmOhaUHvv27QtdQvvRtAQ0LQFNS0DT
+ktG3BDQtAU1LQNNmumZP5p6imGle9xWJj9I6ceLE6tWr42f6+vpGR0cX9EkAAACT5hVFduzYkc1m
+y+XyyZMnv/nNbz766KM33HDDkSNHGl8eAADQma66QGvHjh2Tj7dv3x4/2L9//wsvvJDJZGxYBwAA
+FmNh29bj2yI6xhcAAFikeS3QAgAAqC9RBAAACEAUAQAAAhBFAACAAEQRAAAgAFEEAAAIQBQBAAAC
+EEUAAIAARBEAACCATBRFtVotdBkAAEC6mBUBAAACEEUAAIAARBEAACAAUQQAAAhAFAEAAAIQRQAA
+gABEEQAAIABRpLHy+Uw+r8kAADBdV+gCOlk+n3nrrd5icSKKoq1bL5VK1dAVAQBAq/AP9g20a9fy
+rVsvbdz43p497x861BO6HAAAaCGiSKMMDi6Nomj37svxr6VSNX4GAAAQRRpoy5br9ux5f/K3w8Nj
+Q0PXB60IAABaiCjSKIVCVzwlEisWJ0qlaqFgcw4AAESiSKMMDi6dmkNixeL4li3XBaoIAABaiyjS
+EP393SMj49Oe3LPnslkRAACIiSINMTi4ND7Dd6pSqWqNFgAAxESR+otzyKx3ESkWx/v7RREAABBF
+GuNqdzMcGZkoFLqbXg4AALQcUaT+Zt0oEiuVqvm8ngMAQJSp1Wqha+g0hULXzI0iMdtFAAAg5l/o
+6y+fz1xtgZbtIgAAEBNF6mzWO4pMZbsIAACIIvWXy2VKpcocL7BdBAAARJH6y+ez5fJVV2dNbhf5
+679+r4lFAQBAyxFF6myOPesAAMAkUaTO5t6zHisWx//6r99tVkUAANCKRJF6mueUyMjIxKc+ZYEW
+AACpJorU03ymROLtIjfdNNcpWwAA0PFEkXq65vFZsTiuuNEhAABpJorU0zWPz5p07tzSxpcDAACt
+SxSpp/kfn/Wb3/S45zoAAGkmitTTPPeKRFH06qsr3HMdAIA0E0XCOHduqXuuAwCQZkbDdTM4uHT+
+Nzc8d+46UQQAgDQzGq6nea7OihWLEw7RAgAgtUSRupnnSb5TmRgBACC1DIXrZv4n+caKxfFcTv8B
+AEgpQ+G6mf9JvrGRkQmHaAEAkFqiSDClUtUCLQAAUuvKULhWq4WupO3N/6YiMVEEAIA0MxSuj4Xm
+kJhDtAAASC1RpD4WulEEAABSThQJqVgc7+83KwIAQBqJIvWR4KYiDtECACDNRJH6WOhNRQAAIOVE
+kfpItm3dIVoAAKSWcXB9JI4i8fc2pigAAGhdBsH1kSyKmBgBACC1DIIDE0UAAEgng+A6WMxNRUql
+Si7nbwEAgNQxCK6DxKuznOcLAEBqiSLhWaAFAEAKGQTXQbL7G8YST6cAAEBbE0XqYDH3N3SeLwAA
+6WQEXAeL2SviEC0AANLJCLgOFhlFzIoAAJBCRsB1sMggUSyOO88XAIC0mX0EnMlktm3bls1mZ/3q
+/fff/8ADDzS4sDazmFmRcrnqPF8AANJmlijS29v7yCOPrFmzZtZvuPnmmz/72c8uW7as8bW1h8Wv
+znKIFgAAKZSp1Wq1Wm3qU/fdd9+LL7546dKlma9eunTpF77whRdeeKGJFba6ukQRe0UAAEibrplP
+Pf/881d79YMPPnjw4MHly5dPfXLv3r1zfMCRI0eOHj26uCJb2uc/f358/L2BgXsW9F3r1q2b+tt8
+/sjAwEC9S+s005rGfGhaApqWgKYlo28JaFoCmpaAps1q/fr1GzZsqOMbzhJFrub2228fHx8/ceLE
+pz/96anPb968uY4FtZ1Vq5Z+5CPd+/adXOg37tu3b/Jxsdhz+fLBYnGi3tV1mqlNY540LQFNS0DT
+ktG3BDQtAU1LQNNmumZP5p6imGkBUWTTpk0XLlwYHBxcsWLFsmXL7r333pdeemlBH9aRFnOrdQAA
+SK15RZFsNlupVL773e/Gv73jjjtWr159+PDhBtfWHvL57MjI+CLfpFgc7+/vMisCAEB6zGu39I4d
+O7LZ7OU/Gx8fr1arExPGzZG7EwIAQDJXHUbv2LGjUrmy7mj79u2Tj6MoeuWVV/7jP/6jKeW1gXw+
+s/jZjJGRCbcWAQAgVfyLfktwni8AAGlj+LtYi7+vCAAApJAo0hLMigAAkDaGv4tSxymRYnGiUFjA
+2coAANDWRJFFsToLAACSEUUWpa6zIuP9/WZFAABIC1EEAAAIQBRZlFwuUypV5vHCa3NrEQAAUkUU
+WZR8Plsu12eBlkO0AABIFWNfAAAgAFFkUeq4bT2eFTExAgBAShj4Lkp9D/MtFidEEQAAUsLAd1Hc
+VwQAAJIRRVqIW4sAAJAeokhypkQAACAxUSS5ukcRtxYBACA9RJHkbDEHAIDEDKYXpb6zIu5yCABA
+ehj4thBRBACA9DDwTS6Xy5RKlfq+Z7E4USg4RAsAgM4niiSXz2fLZSdoAQBAEqJIa7FGCwCAlDDq
+Ta4R9xUplSq5nL8UAAA6n1Fvco2IIuVy1a1FAABIA1Gktbh9OwAAKSGKJNeYBVr2igAAkApGva1F
+FAEAICWMehNqxJRITBoBACANDHkTEkUAAGAxDHkTalwUid+8Qe8MAAAtwpC35RSL424tAgBAxzPk
+bUX5fDZ0CQAA0FiiSEK5XKZUqjTinUdGJizQAgCg4xnyJpTPZ8tl29YBACAhQ14AACAAUSQhh/kC
+AMBiGPIm1NDDfIvFiUKhq0FvDgAArUAUAQAAAhBFEmrorIg1WgAAdDzj3VZUKlXc5RAAgM5mvJtE
+Q6dE4luLFArdjXt/AAAIThQBAAACEEWSaPSsiL0iAAB0POPdJBodReKPaOj7AwBAWMa7rahUqpoY
+AQCgsxnstihRBACAzmawm0QulymVKqGrAACANiaKJJHPZ8vlxu4VKRbH+/u7GvoRAAAQkCgCAAAE
+IIok0YQTtNzlEACAziaKJNGEKOI8XwAAOpvBbotqQtQBAICAMrVaLX40+YBW4DBfAAA6WK1WM9hN
+ojkLtIrFiULBIVoAAHQmUQQAAAhAFFmw5kyJWKMFAEBnM9JdsCZGkUou5y8IAIDOZKTbusrlaj6f
+DV0FAAA0hCiyYBZoAQDA4hnpti5RBACADmaku2C5XKZUqoSuAgAA2pso0rriZWAmRgAA6EiGuQuW
+z2fL5WbsFbFGCwCADmaYCwAABCCKLFjTTtCKoqhYHO/v72rOZwEAQDOJIgAAQACiyII1c1ZkZGSi
+UOhuzmcBAEAzzb74J5PJPProo0899VSl8oFTa++5554NGzZ0dXUdO3Zs//79zSoSAADoNLNEkd7e
+3ocffnjNmjXTns/lcp/5zGd27txZqVQeffTRT37yk8eOHWtWnS2kmbMiTtACAKBTzTLMve+++158
+8cVLly5Ne/7ixYvPPvvsxMRErVZ78803V65c2awi00sUAQCgU80yK/L888/P+tK333777bffjqJo
++fLld911149+9KP4+b17987xAUeOHDl69Gidqg3vppveP3fu+MDAwCLfZ926dfN85blzr/6P/9F/
+7tx1i/zEDjD/pjFJ0xLQtAQ0LRl9S0DTEtC0BDRtVuvXr9+wYUMd33DBB8X29vY+8sgjP/vZz373
+u9/Fz2zevLmOBbW4fD4zNtazb9++xb/VPN/k9dd7Tp/+ZbE4sfhP7AB16XzaaFoCmpaApiWjbwlo
+WgKaloCmzXTNnsw9RTHTlShSq9Xm8+rVq1d/6UtfevbZZ48fP76gj+kYzdwoErNGCwCAjjSvWZFs
+NlupVHp7e7/85S//+Mc/Pnv2bOMLa1EhokgllxNFAADoNPOKIjt27HjiiSc+97nPrVix4mtf+1r8
+5OHDh3/60582uDyicrna3+/WIgAAdJqrRpEdO3ZMPt6+fXsURc8999xzzz3XrMK4olSqbtliVgQA
+gE5jjLswuVymVKrM44V1Y68IAAAdyRgXAAAIQBRZmHw+Wy43+wSteLt8Mz8UAAAazQC3DVijBQBA
+5zHAXZjmH+YLAAAdSRRpA8XieH//vI5dBgCAdiGKLIxZEQAAqAtRpA2MjEwUCu5yCABARxFFFibI
+rEgHbFvP5zNDQ8tqtQ/Xah9+663eQ4d6hoaWhS4KAICQ2nuAS+vL5zO7di0/dKgniqIlS36/ZMnv
+N258b3h4LJ/PvvVWr0ACAJBaNkMvQKiNIu07K5LPZw4d6tm9+/2+vkuTT5ZK1VKpWixOxCllcPC6
+jRvfswMHACBt2nKAm0LF4kSh0Ga5MZ/PvPVW79atl4aH/zTrC0ql6tatl3bvfv/QoZ42zVoAACTW
+ZqPbsByftSC7di3fuPG9YnFijteUStXh4T+Vy9VDh3rMjQAApIp/im4PbXdrkUOHeorF8blzyKTd
+uy8PD4+ZGwEASI+JiYl2Gt0GZ1ZkngYHl0ZRdLV1WbPavftyHGDMjQAApMETTzzhH6HbQxvdWiTe
+jD48PLbQb9y9+3K8b6QxdQEA0EK++tWvZqIoqtVqoSuhc+zatfzJJ8fmuTRrmuHhPxWLE7t2LW9A
+XQAAtJA1a9aYFVmAXC5TKlWCfHS7nOdbKHTl85kFLc2aZnh4LL4fYl3rAgCg5bTB6LZ15PPZcjnM
+NoZ2iSJDQ9cnWJo1VXzC7+DgdW13eDEAAAvSBqNbYq1/a5G4vHgD+mKUStXh4THLtAAAOpsoQt0s
+fkpkUryFXRoBAOhgosgChD3Mt8VvLRLvEkm2W31We/ZcLhS64nOBAQDoPKLIArivyBzqOCUSK5Wq
+Gze+NzR0fVtskgEAYKEM8tpGK99apFDoKhS6Fr9LZJpSqWqZFgBApxJF2kYrH6K1Zct1Tz5ZzymR
+SXv2XI6iyNm+AACdp3X3HrQgC7SuZnBwaV/fHxrxzvHZvocO9cSZBACAjtGi/8rOTC07KzI4uHT3
+7suNC2nO9gUA6EitOLRtTa0QA1rz1iJDQ9fv2fN+Qz8i3oXy3//7aEM/BQCAZgo/vG4jVmfNVPcz
+fK9m69ZLAwNvt2ASAwAgGVFkvlpho0gL3lqkcRvWpymVqj/+8SrLtAAAOoYo0mby+WzoEj6gUOhq
+2oby/fs/UixOSCMAAJ1BFJmvVpgVGRmZaIUtK5MGB5cWixPNbMvw8Fg+n7FMCwCgAxjStZNWO0Sr
+v797ZGS8mZ84eZpWg84Obpx8PpPPZ+L1dfl8durfY5zlSqVKuVwtla78L2ixAADNIIqQ3ODg0uHh
+ZmwUmapYnIhvwb5166Umf/RC5fOZLVuWFgrdhUJXHDCKxfEoikZGxvfsqU59WRRFuVymv797y5ZM
+/Nv49SMj46VStQmnAgAANJ8oMl+5XKZUqoStIf7H8lZYKtaE24nMYc+ey7t2LR8aWjY8/Kfmf/o1
+TSaQfD6ze/f7xeL4xo3vLfQd/jyL0r1lS2bXrkwcY0ZGJsQSAKBjiCJtJl6j1QpRpPmrsyZN3oK9
+1YbmcQh58snrn3xybHh4LHFtk2u04huqxNtj+vu7C4XuOJaUStU9e95vqT87AMBCddVqtSiK4l+Z
+Qz6fDTXynqp1tosMDi4NuESq1TaNFApdQ0PXx9MgS5b8vr5vXipVd+++PBlL4j0nQ0PX79qViVes
+tdo6rvg/0clfc7nMlC9lZ75y0qwZe3I2slyuznzZn3fahA/nAMBCmRVpM6VSZerALpR4dVbYGnbv
+vpzLZYJvGsnnM7t2LY9DSBMWjP15z8nE8PCf4nF8PGGya9fSyS3vjU4mkxljMmbEASO+3+W0eFAq
+VaeubJyW56fumZmZTGKT/8H393fHD7ZsyUz7lslvnJZJ5v7t1axe/dYXvzj9zOir/RPAQp9vgiDB
+7PrrXx0b653PK+vVmc7In/PvG5M0LQFNS0DTkvm//3dhrxdF5iufz0wbNgUxMjIxNHR98D0SAVdn
+TRV200g+nxkaur5Q6GpOCJlpchHX7t2Xt269NHnM8eQOkyiK3n33/33xi8snj+eaexphcow4bUJj
+8sivOH5MyRhXYkYcfoaHx4KPDqcNc+f+7dXcfnvPb387/T/vq/3f/2p/5ICtCJKC7rvvjhdffHE+
+r6xXZ1pkfniR5t83JmlaApqWgKYl87/+18JeL4qQRJCzs2aa3DQSRVEzw0C8J2Rw8Lrdu9/v62uV
+g7zidVxTd5hEUfTQQ+vOn///+vu78/lsPJkwbRph2jtMfTA1acQD8dY/aDjZNMg0AwMf2bcv8KTf
+YgT5O7r11uua/Lkt/p/iPDW/bx1A0xLQtAQ0rQlef/11UWS+WmSzeCvsFQl4dtZMpVJ148b3du1a
+3rQt7ENDy+KN6S2yTeVq4r+gV1/t2bfvcvDVdAAA0/zyl78URdpMK0SRFlmdNWlybmTr1ksNTSOT
+20I2bnyvdfaIAwC0ozfeeKMT1tqmTbE4EW8JCKVQ6Gq1gfjk3EiDOpPPZ4aGlh061FMsjvf1/aHV
+/vgAAO1IFJmvFlmgFdzg4NJicaIFWzGZRoaGltX3nYeGlr31Vm8URX19fwh+YAAAQMcQRdpPsTje
+3x9sVqTVVmdNFaeRQqG7XmmkUOh6663eQqFbCAEAqDtRZF5aakqkXK4WCt2hPr0FV2dNFe8bGRy8
+Lt7Ukfh98vnMoUM9u3YtHx4e27jxvdb52wcA6BiiSPsJe7+Clkpls4rnRkqlyqFDPQmmR+K96ZPb
+Qpw9BQDQIKLIvLTU+DvgIVqFQldbDM1Lperw8J/ixVpvvdU7OLj0mt8Sb0x/663eQ4d6SqWKFVkA
+AI3mMN/2EzCKbNly3Z497wf56ATi6ZHBwaVbtlw3NHR9sTgR3xQ8/l/cw0KhK5fLFArd+Xxm9+73
+G30cMAAAsRtvvFEUmZeWmhWZPM+3+YPmQqFr48b3mvyhi7R79+Xduy/n85lCoau/v3vLlszUZWal
+UrVYHB8eHpNAAACa6e677xZFmK/4Juuhq0ioVKrGmSR0IQAARFEU/c3f/I29Im0pyHm+rXyMLwAA
+7SWbzYoi85LLZUqlSugq/mJkZKL55/m2+DG+AAC0F1GEeRkcXBrv9g5dCAAAHUIUmZd8Plsut9Ao
+vPmHaPX3d8shAADUkSjSluJU0Mw0Uih0tdExvgAAtL5MFEW1Wi10GSxYkydG8vmMjSIAANTLD37w
+A7Mi89Jq9xWJo0jTDtFq62N8AQBoTaLIvLRkFGneiV6O8QUAoL6++tWviiLtqpnn+TrGFwCAuhNF
+2lXT9ooMDi6d3CgPAAD1IorMS0su0GpSFMnlbFgHAKD+RJE2VixOFAoN37k+OHidY3wBAKg7UaS9
+NWFixDG+AAA0gihybS24OitWLI7nco39G3SMLwAADSKKXFvLRpEmHKLlGF8AABrh9ddfF0XaWBN2
+rjvGFwCARvjlL3+54IFsJpPZtm1bNpttTEmtqGVnRRodRQYHl7bsnx0AgLb2xhtvLGwg29vb+8gj
+j6xZs6ZhJbEwjT5Ey0YRAAAaZGFR5L777nvxxRcvXbrUsHpYmIZOjGzZcp2NIgAANMjC/kH9+eef
+n/nk3r175/iWI0eOHD16dOGFtZD77x+NomhgYHUd33PdunV1eZ9sdvT++6P/+q961japUDjyne/c
+MzDQiPdOol5NSxVNS0DTEtC0ZPQtAU1LQNMS0LRZrV+/fsOGDXV8wzqs7dm8eXM9Kmld99yzLIqi
+fft+W9+33bdv3+Lf5PLlrqGh6+te25+P8e2uS5F11Gr1tAVNS0DTEtC0ZPQtAU1LQNMS0LSZrtmT
+uacoZnKC1rXl89lyuUW3bjdugZZjfAEAaChRpL3Fx1s1Io04xhcAgIYSRdpeIyZGCoUux/gCANA4
+N95445UhbK1Wq9Vq8/y2HTt2VCqVRhbWWlp8UF4sjvf31/k833w+4xhfAAAa5+677zYr0vZGRiYK
+he76vueWLdft2fN+fd8TAAAm3XvvvaLItbX4rEiDFmjZKAIAQONks1lRpO3VPYoMDi61OgsAgEYT
+RTpBsThRKNRtu4hjfAEAaAJR5NpafIFW3XeuW50FAEATiCKdoI471wcHlxaLEy0evQAA6ACiSCeo
+43aR/v7uUilFJzUDABCKKHINrb86q773XC8UuvbssWcdAICGE0U6RF0mRvL5TFtELwAAOoAocg3t
+MjSvy871QqHLMb4AADSHKNIh6rJzfWjoejdZBwCgOUSRa2iXWZF6LdByjC8AAM0hinSIUqlaKlUX
+c6NDN1kHAKCZRJHOscjtIlu2XGd1FgAATSOKXEMul2mX+2wscruIm6wDANBMokjnWMx2EauzAABo
+MlHkGvL5bLncBtvWF7ldxNlZAAA0mSjSUYrF8S1brlvodxUKXc7OAgCgyUSRjrJnz+UEsyJbtlxn
+dRYAAE2WiaKoVquFLqN1tct9RWLJ1mgVCl3Dw2MNKwoAAGZhVuQaFn/fwCZb6JG+g4NLi8WJNopb
+AAB0hjYbZwfRXsP0kZGJwcEFbBfZsuW6kZHxRlYEAADTTUxMiCKdJp7imOcarXw+Uyh02SgCAECT
+ffvb3xZFrqG99orE5r9Ga2jo+ieftEsEAIBmu+uuu0SRDrRnz+V5rtEaHFy6Z48pEQAAmu3mm28W
+RTrQPM/R2rVr+e7dl9tuzgcAgA5www03JLkzd3q04+qs2PDw2NDQ9cXie3O8ZnBwaV/fH5pYFAAA
+XNHT02NWpDPFCWqOiZFdu5Y/+eRYmwYtAADaXU9Pj1mRubTvrEipVN2z5/1du5bPOu9RKHQVCl19
+fZdClAYAANENN9xgVqRjxftAhoaWzfzSrl3Lt26VQwAACEkUmUv7zorEtm69VCh0Dw4unfrkoUM9
+u3e/XyxOhKsLAAAiC7Q6WalU3br10qFDPblcZmRkor+/a3DwumJxYnj4T6FLAwAg7USRDlcqVTdu
+fG/LlqVDQ9dHUbRx43ttPc8DAEDHEEXmkstlSqVK6CoWq1SqDg//yUwIAAAtxV4RAACg2b7zne+I
+InPJ57PlsuVMAABQZ1/84hdFEQAAoNny+bwoAgAANNu//du/iSJzaff7igAAQGv6q7/6q0ytVot/
+M/kAAACgoe69916zInMxKwIAAI1QqVREEQAAoNmefPJJUQQAAGi2f/iHfxBF5mKBFgAANMKHP/xh
+UQQAAAhAFAEAAAIQRa7K6iwAAGgcUQQAAAhAFLkqsyIAANA4oggAABCAKHJVZkUAAKBxRBEAACAA
+UQQAAAhAFLmqXC5TKlVCVwEAAJ1JFAEAAAIQRQAAgABEkavK57PlshO0AACgIUQRAAAgAFEEAAAI
+4EoUqdVqoStpOW5xCAAAjWNWBAAACEAUuSqzIgAA0DiiCAAAEIAoAgAABCCKXJUFWgAA0DiiCAAA
+EIAoMjtTIgAA0FBdM59au3btwMBANps9cODAsWPHpn7pjjvu6O/vj6LoV7/61eHDh5tYJwAA0FGm
+R5He3t5Nmzbt3LkziqLHHntsdHT0woULk1964IEHvve971UqlW984xvlcvncuXMham4GsyIAANBQ
+0xdo9fX1nTp1amxsbGxs7LXXXlu7du3kl5YtWxY/f/ny5YsXL95www1NrxYAAOgQ02dFVq1aNTo6
+Gj8+f/58Pp+f/NK5c+feeOONbdu2VavV3//+92+++WZzSwUAADrH9CjS3d1drf/BqO4AAB/bSURB
+VM6+MOmmm276xCc+8dxzz1UqlQcffPDjH//46dOnoyjau3fvHB9w5MiRo0eP1rXmZvj858+Pj783
+MHBPg95/3bp1DXrnDqZpCWhaApqWgKYlo28JaFoCmpaAps1q/fr1GzZsqOMbTo8io6OjK1eujB/3
+9PS88847k1/61Kc+dfjw4TfeeCOKol/84hd33XVXHEU2b95cx4JaxKpVSz/yke59+0427iP27dvX
+uDfvVJqWgKYloGkJaFoy+paApiWgaQlo2kzX7MncUxQzTd8rMjo6Orko67bbbjt58mQURdlsNoqi
+CxcurF69Ov7SRz/60cnt7AAAAAs1fVbk7Nmzx48ff/zxx6vV6unTp8+cORNF0Y4dO5544olf//rX
+t9xyy7Zt2yYmJqIoeuaZZwLV3Ay5XKZUqoSuAgAAOtYs9xXZv3//wYMHoyiqVK6Mxbdv3x4/eOaZ
+Z7LZ7JIlS+I0AgAAkMzsd1uvVCqTOWTml9KQQ/L5bLnsviIAANAos0cRAACAhhJFAACAADJRFNVq
+tdBltJx8PlMqWaAFAACNYlYEAAAIQBSZnVkRAABoKFEEAAAIQBQBAAACEEVmZ4EWAAA0lCgCAAAE
+IIoAAAABiCKzsDoLAAAaTRQBAAACEEVmYVYEAAAaTRQBAAACEEVmYVYEAAAaTRQBAAACEEUAAIAA
+RBEAACAAUWQWuVymVKqErgIAADqZKAIAAAQgiswin8+Wy07QAgCABhJFAACAADK1Wi2KovhXAACA
+5jArMgu3OAQAgEYTRQAAgABEkVmYFQEAgEYTRQAAgABEEQAAIABRZBYWaAEAQKOJIgAAQACiCAAA
+EIAoMp3VWQAA0ASiCAAAEIAoMp1ZEQAAaAJRBAAACEAUmc6sCAAANIEoAgAABCCKAAAAAYgi0+Vy
+mVKpEroKAADocKIIAAAQgCgyXT6fLZdtWwcAgMYSRQAAgAAyURTVarXJXwEAABqtVquZFQEAAAIQ
+RaZzi0MAAGgCUQQAAAhAFJnOrAgAADSBKAIAAAQgigAAAAGIItNZoAUAAE0gigAAAAGIIh+Qz2sI
+AAA0g5H3dFZnAQBAE4giAABAAKLIB9izDgAAzSGKAAAAAYgiH2BWBAAAmkMUAQAAAhBFAACAAESR
+D8jlMqVSJXQVAADQ+UQRAAAggEytVouiKP6VfD5bLtu2DgAADWdWBAAACEAUAQAAAhBFPsB9RQAA
+oDlEEQAAIICumU+tXbt2YGAgm80eOHDg2LFjU7/U19f3wAMPrFix4pVXXtm/f38T62wSsyIAANAc
+06NIb2/vpk2bdu7cGUXRY489Njo6euHChfhLy5cvf+ihh37wgx+8++67X/nKV2699dYTJ06EqBkA
+AGh70xdo9fX1nTp1amxsbGxs7LXXXlu7du3kl2655ZZXX3313XffXbJkyVNPPXXy5MmmVwsAAHSI
+6bMiq1atGh0djR+fP38+n89Pfqmvry+Koq9//euZTObixYtPP/30xMREc6ttOAu0AACgOaZHke7u
+7mr1qmPxj33sY9///vdrtdrDDz985513vvTSS1EU7d27d44POHLkyNGjR+tXcKMdGRgYaMLHrFu3
+rgmf0mE0LQFNS0DTEtC0ZPQtAU1LQNMS0LRZrV+/fsOGDXV8w+lRZHR0dOXKlfHjnp6ed955Z/JL
+Fy9eHB0dje/LfvLkyXiSJIqizZs317Gg0D68b9++5nxS0z6ok2haApqWgKYloGnJ6FsCmpaApiWg
+aTNdsydzT1HMNH2vyOjo6OSirNtuuy3eEJLNZqMoOnHixOrVq+Mv9fX1Ta7j6hhWZwEAQNNMnxU5
+e/bs8ePHH3/88Wq1evr06TNnzkRRtGPHjieeeKJcLp88efKb3/zmH//4x8uXLx85ciRQzQAAQNub
+5b4i+/fvP3jwYBRFlUolfmb79u2TX3rhhRcymUznbVg3KwIAAM00SxSZGkJmqlarc+xrBwAAmI/p
+e0XSLJ/XDQAAaBKD7w+wQAsAAJpDFAEAAAIQRQAAgABEkb/I5TKl0lX36wMAAHWUiaIovoE6AABA
+05gV+Yt8Plsu27YOAADNIIoAAAABiCIAAEAAoshf5PMZ9xUBAIDmEEUAAIAARJG/MCsCAABNI4oA
+AAABiCIAAEAAoshfWKAFAABNI4oAAAABiCIAAEAAosgVVmcBAEAziSIAAEAAosgVZkUAAKCZRBEA
+ACAAUeQKsyIAANBMoggAABCAKAIAAAQgilyRy2VKpUroKgAAIC2uRJFarRa6EgAAIEXMilyRz2fL
+ZdvWAQCgSUQRAAAgAFEEAAAIQBS5wn1FAACgmUQRAAAgAFHkCrMiAADQTKIIAAAQgCgCAAAEIIpc
+YYEWAAA0kygCAAAEIIoAAAABiCKR1VkAANB8oggAABCAKBKZFQEAgOYTRQAAgABEkcisCAAANJ8o
+AgAABCCKAAAAAYgiURRFuVymVKqErgIAAFIkU6vV4keTDwAAABrNrEgURVE+ny2XbVsHAIDmEUUA
+AIAARBEAACAAUSRyXxEAAGg+UQQAAAhAFInMigAAQPOJIgAAQACiCAAAEIAoElmgBQAAzSeKAAAA
+AYgiAABAAKKI1VkAABCAKAIAAAQgipgVAQCAAEQRAAAgAFHErAgAAAQgigAAAAGIIgAAQACiSJTL
+ZUqlSugqAAAgXTJRFNVqtdBlAAAAKVKr1bpmPrt27dqBgYFsNnvgwIFjx47NfMH999/f3d3985//
+vClFNlw+nx0ZGQ9dBQAApMv0BVq9vb2bNm364Q9/+K//+q9/+7d/e+ONN057wc033/zZz3522bJl
+TSwSAADoNNOjSF9f36lTp8bGxsbGxl577bW1a9dO/erSpUu/8IUvvPDCC80tEgAA6DTTo8iqVatG
+R0fjx+fPn7/pppumfvXBBx88ePDgH//4xyZW2HDuKwIAAM03fa9Id3d3tTr7uPz2228fHx8/ceLE
+pz/96anP7927d44POHLkyNGjR+tRaqPceOP/W7/+vy1d2tPMD123bl0zP64zaFoCmpaApiWgacno
+WwKaloCmJaBps1q/fv2GDRvq+IbTo8jo6OjKlSvjxz09Pe+8887klzZt2nThwoXBwcEVK1YsW7bs
+3nvvfemll6Io2rx5cx0Lar7//b97/8//OdP8iZF9+/Y1+RM7gKYloGkJaFoCmpaMviWgaQloWgKa
+NtM1ezL3FMVMs0SRu+++O3582223/eQnP4miKJvNViqV7373u/Hzd9xxx+rVqw8fPrygTwIAAJg0
+fa/I2bNnjx8//vjjjz/22GNnzpw5c+ZMFEU7duzIZrOX/2x8fLxarU5MTASquc7sFQEAgOab5b4i
++/fvP3jwYBRFlcqVe5Bv37596gteeeWVV155pVkVAgAAHWiWKDI1hAAAADTC9AVaaWN1FgAABJH2
+KAIAAASR9ihiVgQAAIJIexQBAACCSHsUMSsCAABBpD2KAAAAQYgiAABAAGmPIrlcplRyExUAAGi2
+tEcRAAAgiEytVouiKP41hfL5bLls2zoAADSbWREAACAAUQQAAAgg7VHEfUUAACAIUUQUAQCAANIe
+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
+BX1tMGIUOR8eAAAAAElFTkSuQmCC==
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
@@ -964,7 +1256,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
       <name>Default</name>
       <priority>-2147483648</priority>
       <subgraph type="sltp.mm.core.Graph" uuid="8211f6f3-6456-4fdd-9fdd-6db8c05fb759">
-        <tasks type="sltp.mm.core.Task" uuid="a15327c4-65f7-416c-8e58-a6563b29f908">
+        <tasks type="sltp.mm.core.Task" uuid="640f8afe-f0a8-4d9e-8778-6eff5e6752d4">
           <baseTask>true</baseTask>
           <context type="sltp.mm.core.Context" uuid="9163d92d-0590-41fc-b13d-3bf36253804b"/>
           <explicit>false</explicit>
@@ -972,7 +1264,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
           <isTimed>true</isTimed>
           <name>Cont</name>
           <priority>40</priority>
-          <rates type="sltp.mm.core.Rate" uuid="7867c10b-9010-457f-a789-4b003d206440">
+          <rates type="sltp.mm.core.Rate" uuid="f28cc133-1f81-41ad-b2ed-2c5a43936649">
             <annotation>Cont</annotation>
             <color>255</color>
             <hasBlocks>true</hasBlocks>
@@ -982,6 +1274,17 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
               <period>0.0</period>
             </rateSpec>
             <sti>0</sti>
+          </rates>
+          <rates type="sltp.mm.core.Rate" uuid="17286928-c5c2-4a95-9617-91960f52f085">
+            <annotation>FiM</annotation>
+            <color>255</color>
+            <hasBlocks>true</hasBlocks>
+            <rateIndex>1</rateIndex>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <offset>1.0</offset>
+              <period>0.0</period>
+            </rateSpec>
+            <sti>1</sti>
           </rates>
         </tasks>
       </subgraph>
@@ -993,7 +1296,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 <sltp_editor version="1.1" packageUris="http://schema.mathworks.com/mf0/DiagramEditor/R2019a_20181107 http://schema.mathworks.com/mf0/SltpSyntax/R2023b_202303220000">
   <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="20dc8e00-e5db-4ba2-930d-fb200eb49fdc">
     <rootGraph type="sltp.mm.syntax.Graph" uuid="84c33d9c-247d-48a2-b7cd-264b26e58866">
-      <children type="sltp.mm.syntax.Node" uuid="b15882a9-e8c1-43dd-8905-b4b321aaefd4">
+      <children type="sltp.mm.syntax.Node" uuid="07b74d92-b4f2-4e2a-a35c-cc56c3ab9c62">
         <priority>40</priority>
         <rates type="sltp.mm.syntax.RateData">
           <color>#000000</color>
@@ -1001,12 +1304,18 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
           <rate>0</rate>
           <title>Cont</title>
         </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#000000</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>[0, 1]</rate>
+          <title>FiM</title>
+        </rates>
         <title>Cont</title>
         <type>base</type>
-        <diagramElement type="diagram.editor.model.Entity" uuid="1bd22d58-166a-4161-939b-78ad96e3cf82"/>
-        <subgraph type="sltp.mm.syntax.Graph" uuid="ea31526d-9877-432c-a90a-4ea87e8bf938">
+        <diagramElement type="diagram.editor.model.Entity" uuid="3ffdc3a6-2493-4a96-8c89-96cf4e8f0aaf"/>
+        <subgraph type="sltp.mm.syntax.Graph" uuid="14eb291b-7173-49f0-8443-8bb238b855d3">
           <title>Cont</title>
-          <diagramElement type="diagram.editor.model.Diagram" uuid="b3b45eed-c9b8-463c-a2be-8774f36ccbea"/>
+          <diagramElement type="diagram.editor.model.Diagram" uuid="8a648415-6884-40b9-9e8e-4640c6a36374"/>
         </subgraph>
       </children>
       <title>Default</title>
@@ -1014,15 +1323,15 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
     </rootGraph>
   </sltp.mm.syntax.Context>
   <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="7cbaad6a-f060-49fb-a3cb-a251878007c0">
-    <entities type="diagram.editor.model.Entity" uuid="1bd22d58-166a-4161-939b-78ad96e3cf82">
+    <entities type="diagram.editor.model.Entity" uuid="3ffdc3a6-2493-4a96-8c89-96cf4e8f0aaf">
       <position>0,0</position>
       <size>0,0,0,0</size>
-      <syntaxElement type="sltp.mm.syntax.Node" uuid="b15882a9-e8c1-43dd-8905-b4b321aaefd4"/>
+      <syntaxElement type="sltp.mm.syntax.Node" uuid="07b74d92-b4f2-4e2a-a35c-cc56c3ab9c62"/>
       <title>Cont</title>
       <type>base</type>
-      <subDiagram type="diagram.editor.model.Diagram" uuid="b3b45eed-c9b8-463c-a2be-8774f36ccbea">
+      <subDiagram type="diagram.editor.model.Diagram" uuid="8a648415-6884-40b9-9e8e-4640c6a36374">
         <position>0,0</position>
-        <syntaxElement type="sltp.mm.syntax.Graph" uuid="ea31526d-9877-432c-a90a-4ea87e8bf938"/>
+        <syntaxElement type="sltp.mm.syntax.Graph" uuid="14eb291b-7173-49f0-8443-8bb238b855d3"/>
         <title>Cont</title>
         <type>graph.Graph</type>
       </subDiagram>
@@ -1035,288 +1344,179 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[504, 298, 1486, 1050]</P>
+  <P Name="Location">[-1, -8, 2561, 1553]</P>
   <P Name="Open">on</P>
+  <P Name="ZoomFactor">200</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">23</P>
-  <Block BlockType="Gain" Name="-k" SID="14">
-    <P Name="Position">[645, 790, 675, 820]</P>
-    <P Name="ZOrder">13</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="Gain">-18.45</P>
-  </Block>
-  <Block BlockType="Constant" Name="0" SID="17">
-    <P Name="Position">[655, 880, 685, 910]</P>
-    <P Name="ZOrder">16</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="Value">0</P>
-  </Block>
-  <Block BlockType="Gain" Name="1/m" SID="9">
-    <P Name="Position">[455, 362, 505, 398]</P>
+  <P Name="SIDHighWatermark">16</P>
+  <Block BlockType="Derivative" Name="Derivative" SID="8">
+    <P Name="Position">[860, 655, 890, 685]</P>
     <P Name="ZOrder">8</P>
-    <P Name="Gain">1/70</P>
   </Block>
-  <Block BlockType="Abs" Name="Abs" SID="12">
-    <P Name="Position">[620, 565, 650, 595]</P>
-    <P Name="ZOrder">11</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="SaturateOnIntegerOverflow">off</P>
+  <Block BlockType="Gain" Name="Gain" SID="2">
+    <P Name="Position">[740, 644, 800, 696]</P>
+    <P Name="ZOrder">2</P>
+    <P Name="Gain">2</P>
   </Block>
-  <Block BlockType="Sum" Name="Add" SID="8">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[930, 349, 970, 391]</P>
-    <P Name="ZOrder">7</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
+  <Block BlockType="Gain" Name="Gain1" SID="5">
+    <P Name="Position">[740, 514, 800, 566]</P>
+    <P Name="ZOrder">5</P>
+    <P Name="Gain">15</P>
   </Block>
-  <Block BlockType="Sum" Name="Add1" SID="15">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[800, 784, 840, 826]</P>
-    <P Name="ZOrder">14</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-  </Block>
-  <Block BlockType="Sum" Name="Add2" SID="19">
-    <PortCounts in="4" out="1"/>
-    <P Name="Position">[330, 271, 390, 484]</P>
-    <P Name="ZOrder">18</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">++--</P>
-  </Block>
-  <Block BlockType="Integrator" Name="Integrator" SID="4">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[750, 360, 795, 400]</P>
-    <P Name="ZOrder">3</P>
-  </Block>
-  <Block BlockType="Integrator" Name="Integrator1" SID="5">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[590, 360, 635, 400]</P>
-    <P Name="ZOrder">4</P>
-  </Block>
-  <Block BlockType="Product" Name="Product" SID="11">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[490, 557, 520, 588]</P>
-    <P Name="ZOrder">10</P>
-    <P Name="BlockMirror">on</P>
-  </Block>
-  <Block BlockType="Scope" Name="Scope" SID="1">
+  <Block BlockType="Scope" Name="Scope" SID="3">
     <PortCounts in="1"/>
-    <P Name="Position">[1020, 344, 1070, 396]</P>
-    <P Name="ZOrder">1</P>
-    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-22.76494&apos;,&apos;MaxYLimReal&apos;,&apos;91.41833&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;91.41833&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;Add&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-22.76494&apos;,&apos;MaxYLimReal&apos;,&apos;91.41833&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;91.41833&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023b&apos;)),&apos;Version&apos;,&apos;2023b&apos;,&apos;Position&apos;,[591 328 1059 787])</P>
+    <P Name="Position">[1180, 524, 1210, 556]</P>
+    <P Name="ZOrder">3</P>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-0.19222&apos;,&apos;MaxYLimReal&apos;,&apos;1.73&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.73&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;Zero-Pole&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-0.19222&apos;,&apos;MaxYLimReal&apos;,&apos;1.73&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.73&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023b&apos;)),&apos;Version&apos;,&apos;2023b&apos;,&apos;Position&apos;,[477 248 1065 787],&apos;VisibleAtModelOpen&apos;,&apos;on&apos;)</P>
     <P Name="NumInputPorts">1</P>
     <P Name="Floating">off</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch" SID="3">
-    <P Name="Position">[405, 780, 520, 920]</P>
-    <P Name="ZOrder">2</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="NameLocation">top</P>
-    <P Name="Criteria">u2 &gt; Threshold</P>
-    <P Name="InputSameDT">off</P>
-    <P Name="SaturateOnIntegerOverflow">off</P>
+  <Block BlockType="Step" Name="Step" SID="7">
+    <P Name="Position">[510, 525, 540, 555]</P>
+    <P Name="ZOrder">7</P>
+    <P Name="SampleTime">0</P>
   </Block>
-  <Block BlockType="Constant" Name="X0" SID="16">
-    <P Name="Position">[980, 800, 1010, 830]</P>
-    <P Name="ZOrder">15</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="Value">30</P>
+  <Block BlockType="Sum" Name="Sum" SID="1">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[625, 525, 655, 555]</P>
+    <P Name="ZOrder">1</P>
+    <P Name="NameLocation">left</P>
+    <P Name="Inputs">|+-</P>
   </Block>
-  <Block BlockType="Gain" Name="a1" SID="13">
-    <P Name="Position">[475, 670, 505, 700]</P>
-    <P Name="ZOrder">12</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="Gain">1.3</P>
-  </Block>
-  <Block BlockType="Gain" Name="a2" SID="10">
-    <P Name="Position">[405, 560, 435, 590]</P>
-    <P Name="ZOrder">9</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="Gain">1.1</P>
-  </Block>
-  <Block BlockType="Constant" Name="distance" SID="6">
-    <P Name="Position">[820, 275, 850, 305]</P>
-    <P Name="ZOrder">5</P>
-    <P Name="Value">80</P>
-  </Block>
-  <Block BlockType="Constant" Name="mg" SID="18">
-    <P Name="Position">[180, 280, 225, 310]</P>
-    <P Name="ZOrder">17</P>
-    <P Name="Value">70*9.8</P>
-  </Block>
-  <Line>
-    <P Name="ZOrder">2</P>
-    <P Name="Src">19#out:1</P>
-    <P Name="Dst">9#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">3</P>
-    <P Name="Src">9#out:1</P>
-    <P Name="Dst">5#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">4</P>
-    <P Name="Src">5#out:1</P>
-    <P Name="Points">[51, 0]</P>
-    <Branch>
-      <P Name="ZOrder">10</P>
-      <P Name="Points">[0, 165]</P>
-      <Branch>
-        <P Name="ZOrder">12</P>
-        <P Name="Points">[-108, 0; 0, 20]</P>
-        <P Name="Dst">11#in:1</P>
-      </Branch>
-      <Branch>
-        <P Name="ZOrder">11</P>
-        <P Name="Points">[0, 35]</P>
-        <Branch>
-          <P Name="ZOrder">22</P>
-          <P Name="Points">[0, 105]</P>
-          <P Name="Dst">13#in:1</P>
-        </Branch>
-        <Branch>
-          <P Name="ZOrder">21</P>
-          <P Name="Dst">12#in:1</P>
-        </Branch>
-      </Branch>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">9</P>
-      <P Name="Dst">4#in:1</P>
-    </Branch>
-  </Line>
-  <Line>
-    <P Name="ZOrder">5</P>
-    <P Name="Src">4#out:1</P>
-    <P Name="Points">[79, 0]</P>
-    <Branch>
-      <P Name="ZOrder">31</P>
-      <P Name="Points">[0, 415]</P>
-      <P Name="Dst">15#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">30</P>
-      <P Name="Dst">8#in:2</P>
-    </Branch>
-  </Line>
-  <Line>
+  <Block BlockType="Sum" Name="Sum1" SID="6">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[930, 525, 960, 555]</P>
     <P Name="ZOrder">6</P>
-    <P Name="Src">6#out:1</P>
-    <P Name="Points">[41, 0; 0, 70]</P>
-    <P Name="Dst">8#in:1</P>
+    <P Name="Inputs">|++</P>
+  </Block>
+  <Block BlockType="ZeroPole" Name="Zero-Pole" SID="9">
+    <P Name="Position">[1010, 512, 1100, 568]</P>
+    <P Name="ZOrder">9</P>
+    <P Name="Zeros">[]</P>
+    <P Name="Poles">[1.1 -1.1]</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Points">[19, 0]</P>
+    <Branch>
+      <P Name="ZOrder">4</P>
+      <P Name="Points">[0, 130]</P>
+      <P Name="Dst">2#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">3</P>
+      <P Name="Dst">5#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">2</P>
+    <P Name="Src">5#out:1</P>
+    <P Name="Dst">6#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">7</P>
-    <P Name="Src">8#out:1</P>
-    <P Name="Dst">1#in:1</P>
+    <P Name="Src">2#out:1</P>
+    <P Name="Dst">8#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">8</P>
-    <P Name="Src">12#out:1</P>
-    <P Name="Dst">11#in:2</P>
+    <P Name="Src">8#out:1</P>
+    <P Name="Points">[50, 0]</P>
+    <P Name="Dst">6#in:2</P>
   </Line>
   <Line>
-    <P Name="ZOrder">13</P>
-    <P Name="Src">11#out:1</P>
-    <P Name="Dst">10#in:1</P>
+    <P Name="ZOrder">9</P>
+    <P Name="Src">6#out:1</P>
+    <P Name="Dst">9#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">10</P>
+    <P Name="Src">9#out:1</P>
+    <P Name="Points">[28, 0]</P>
+    <Branch>
+      <P Name="ZOrder">16</P>
+      <P Name="Points">[0, 231; -493, 0]</P>
+      <P Name="Dst">1#in:2</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">15</P>
+      <P Name="Dst">3#in:1</P>
+    </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">14</P>
-    <P Name="Src">10#out:1</P>
-    <P Name="Points">[-122, 0; 0, -115]</P>
-    <P Name="Dst">19#in:4</P>
+    <P Name="Src">7#out:1</P>
+    <P Name="Dst">1#in:1</P>
   </Line>
-  <Line>
-    <P Name="ZOrder">17</P>
-    <P Name="Src">13#out:1</P>
-    <P Name="Points">[-234, 0; 0, -280]</P>
-    <P Name="Dst">19#in:3</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">23</P>
-    <P Name="Src">18#out:1</P>
-    <P Name="Dst">19#in:1</P>
-  </Line>
-  <Line>
+  <Annotation SID="14">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24px;&quot;&gt;C(s)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[799, 728, 846, 758]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="Interpreter">rich</P>
+  </Annotation>
+  <Annotation SID="12">
+    <P Name="Name">比例微分控制器，传递函数为15+2s</P>
+    <P Name="Position">[665, 490, 980, 720]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
     <P Name="ZOrder">25</P>
-    <P Name="Src">3#out:1</P>
-    <P Name="Points">[-211, 0; 0, -500]</P>
-    <P Name="Dst">19#in:2</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">28</P>
-    <P Name="Src">14#out:1</P>
-    <P Name="Dst">3#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">29</P>
-    <P Name="Src">15#out:1</P>
-    <P Name="Points">[-51, 0]</P>
-    <Branch>
-      <P Name="ZOrder">34</P>
-      <P Name="Points">[0, 45]</P>
-      <P Name="Dst">3#in:2</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">33</P>
-      <P Name="Dst">14#in:1</P>
-    </Branch>
-  </Line>
-  <Line>
-    <P Name="ZOrder">32</P>
-    <P Name="Src">17#out:1</P>
-    <P Name="Dst">3#in:3</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">35</P>
-    <P Name="Src">16#out:1</P>
-    <P Name="Dst">15#in:2</P>
-  </Line>
-  <Annotation SID="21">
-    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18px;&quot;&gt;dx&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
-    <P Name="Position">[686, 355, 707, 378]</P>
-    <P Name="InternalMargins">[0, 0, 0, 0]</P>
-    <P Name="Interpreter">rich</P>
-    <P Name="ZOrder">-1</P>
+    <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="20">
-    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+  <Annotation SID="10">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &apos;-//W3C//DTD HTML 4.0//EN&apos; &apos;http://www.w3.org/TR/REC-html40/strict.dtd&apos;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta content=&quot;1&quot; name=&quot;qrichtext&quot;/&gt;
+&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;ddx&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
-    <P Name="Position">[541, 357, 568, 378]</P>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot; align=&quot;left&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;left&quot;&gt;
+&lt;span style=&quot; font-size:26px;&quot;&gt;4.3.4线性连续系统的仿真分析&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;left&quot;&gt;
+&lt;span style=&quot; font-size:26px;&quot;&gt;例：4.5  &lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;left&quot;&gt;
+&lt;span style=&quot; font-size:26px;&quot;&gt;完整的闭环传递函数：&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;left&quot;&gt;
+&lt;math style=&quot;font-size:26px;&quot;&gt;$H(s) = \frac{C(s)G(s)}{1+C(s)G(s)} \cdot\frac{2s + 15}{s^2 + 2s +13.79}$&lt;/math&gt;
+&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;center&quot;&gt;
+&lt;img height=&quot;197.25&quot; src=&quot;[$unpackedFolder]/simulink/resources/mwimg_cc4d84ca-4e5b-4431-a94a-10b1eb69799b.png&quot; width=&quot;282.75&quot;/&gt;
+&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot; align=&quot;left&quot;&gt;
+&lt;span style=&quot; font-size:26px;&quot;&gt;相当于是给了系统一个阶跃：&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</P>
+    <P Name="Position">[415, 54, 866, 459]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="Interpreter">rich</P>
-    <P Name="ZOrder">-2</P>
   </Annotation>
-  <Annotation SID="2">
+  <Annotation SID="16">
     <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26px;&quot;&gt;4.3.2连续系统的仿真分析&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26px;&quot;&gt;例4.4：蹦极跳系统模型&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
-    <P Name="Position">[88, 152, 381, 220]</P>
+&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24px;&quot;&gt;G(s)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1034, 593, 1082, 623]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="Interpreter">rich</P>
-    <P Name="ZOrder">-3</P>
-  </Annotation>
-  <Annotation SID="23">
-    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18px;&quot;&gt;x&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
-    <P Name="Position">[826, 355, 837, 378]</P>
-    <P Name="InternalMargins">[0, 0, 0, 0]</P>
-    <P Name="Interpreter">rich</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">19</P>
   </Annotation>
 </System>
 
@@ -1326,7 +1526,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[504.0, 298.0, 982.0, 752.0]</P>
+      <P Name="Location" Class="double">[-1.0, -8.0, 2562.0, 1561.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">1</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -1343,10 +1543,10 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <P Name="IsTabbed" Class="logical">1</P>
         <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
         <P Name="LoadSaveID" Class="char">0</P>
-        <P Name="Extents" Class="double">[570.0, 516.0]</P>
-        <P Name="ZoomFactor" Class="double">1.0</P>
-        <P Name="Offset" Class="double">[-181.21771871539227, -172.74529346622398]</P>
-        <P Name="SceneRectInView" Class="double">[-181.21771871539227, -172.74529346622398, 570.0, 516.0]</P>
+        <P Name="Extents" Class="double">[2150.0, 1325.0]</P>
+        <P Name="ZoomFactor" Class="double">2.0</P>
+        <P Name="Offset" Class="double">[431.97219696363072, 68.94972182378217]</P>
+        <P Name="SceneRectInView" Class="double">[431.97219696363072, 68.94972182378217, 1075.0, 662.5]</P>
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*3">
         <Object ObjectID="6">
@@ -1376,22 +1576,22 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         </Object>
         <Object ObjectID="8">
           <P Name="Type" Class="char">LibraryBrowser2 LibraryBrowserStudioComponent</P>
-          <P Name="ID" Class="char">ep4_4</P>
+          <P Name="ID" Class="char">ep4_5</P>
           <P Name="Visible" Class="logical">1</P>
           <P Name="CreateCallback" Class="char"/>
           <P Name="UserData" Class="char"/>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
           <P Name="Width" Class="int32">304</P>
-          <P Name="Height" Class="int32">549</P>
+          <P Name="Height" Class="int32">1358</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAACQfwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAAAkEAAACtAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABmAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AZQBwADQAXwA0AQAAAAD/////AAAArQD////7AAAAYABTAGkAbQB1AGwAaQBuAGsAOgBFAGQAaQB0AG8AcgA6AFIAZQBmAGUAcgBlAG4AYwBlAGQARgBpAGwAZQBzAC8AUgBlAGYAZQByAGUAbgBjAGUAZAAgAEYAaQBsAGUAcwAAAAAA/////wAAAIwA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAAAP////8AAAGsAP///wAAAAMAAAAAAAAAAPwBAAAAAfv/////AAAAAAD/////AAABWQD///8AAAJgAAACQQAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAABAAAANgBjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIATABlAGYAdAMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAA4AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBSAGkAZwBoAHQDAAAAAP////8AAAAAAAAAAAAAAAMAAAABAAAAOgBjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIAQgBvAHQAdABvAG0AAAAAAP////8AAAAAAAAAAA==</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAAFavwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAABWoAAADEAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABmAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AZQBwADQAXwA1AQAAAAD/////AAAAxAD////7AAAAYABTAGkAbQB1AGwAaQBuAGsAOgBFAGQAaQB0AG8AcgA6AFIAZQBmAGUAcgBlAG4AYwBlAGQARgBpAGwAZQBzAC8AUgBlAGYAZQByAGUAbgBjAGUAZAAgAEYAaQBsAGUAcwAAAAAA/////wAAAIwA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAAAP////8AAAGsAP///wAAAAMAAAiMAAABZPwBAAAAAfv/////AAAAAVUAAAiMAAABWQD///8AAAiMAAAFagAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAABAAAANgBjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIATABlAGYAdAMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAA4AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBSAGkAZwBoAHQDAAAAAP////8AAAAAAAAAAAAAAAMAAAABAAAAOgBjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIAQgBvAHQAdABvAG0AAAAAAP////8AAAAAAAAAAA==</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">ad1e1868-e3b4-4fec-9788-43d6f7569919</P>
     </Object>
-    <P Name="BDUuid" Class="char">35cb8564-cb47-4cf7-84fc-16efe41e57e2</P>
+    <P Name="BDUuid" Class="char">4d66adf3-da06-42d7-9d16-5c1fdcb421e7</P>
   </Object>
 </WindowsInfo>
 
