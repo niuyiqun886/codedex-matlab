@@ -22,3 +22,17 @@ xlabel('n');
 % 任意输入 u(n) 下求 y(n)(下面以阶跃输入举例)
 u = ones(size(n));
 y = filter(b, a, u);
+
+%figure;
+%freqz(b, a, 512, 1);  % 512点，采样率为1（归一化频率）
+
+figure;
+freqz(b, a, 512, 200);
+
+figure
+c = 1;
+d = [1e-9 1e-3 1];
+freqs(c, d);
+
+
+
