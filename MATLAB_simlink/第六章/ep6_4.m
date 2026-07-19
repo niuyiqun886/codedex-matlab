@@ -15,7 +15,8 @@ simOut = sim('ep_6_2','StartTime','0','StopTime','7','MaxStep','0.1', ...
     'LoadExternalInput','on','ExternalInput','simInput');  % 打开外部输入并指定变量
 y1 = simOut.yout;
 
-simInput1 = [t',cos(0:0.1:7)'];
+t = 0:0.1:7;             % 时间向量，须与 cos 的采样点一致
+simInput1 = [t',cos(t)'];
 simOut1 = sim('ep_6_2','StartTime','0','StopTime','7','MaxStep','0.1', ...
     'LoadExternalInput','on','ExternalInput','simInput1');  % 打开外部输入并指定变量
 y2 = simOut1.yout;
