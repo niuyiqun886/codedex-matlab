@@ -11,3 +11,5 @@ codegen/
 # OS
 .DS_Store
 Thumbs.db
+
+.obsidian/
