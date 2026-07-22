@@ -12,7 +12,7 @@ xlabel('弧度值')
 ylabel('函数值')
 title('三个不同相位的正弦曲线')
 legend('y1','y2','y3')
-grid
+grid on
 %通过运行之后点击图中的曲线即可添加描述的字符串
 gtext('y1=sin(t)')
 gtext('y2=sin(t-pi/2)')
