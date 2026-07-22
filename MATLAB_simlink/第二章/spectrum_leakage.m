@@ -17,7 +17,7 @@
 fs = 500;
 f = 50;
 t = 0:1/fs:0.2;
-t1 = 0:1/fs:0.4;
+t1 = 0:1/fs:0.17;
 x = sin(2*pi*f*t);
 x1 = sin(2*pi*f*t1);
 
@@ -29,9 +29,18 @@ y1 = fft(x1,number);
 n = 0:length(y)-1;
 f = fs*n/length(y);
 
+subplot(2,1,1)
 hold on
-plot(f,20*log(abs(y)),'r')
-plot(f,20*log(abs(y1)),'b')
+plot(f,abs(y),'r')
+plot(f,abs(y1),'b')
+legend('整数周期','非整数周期','Location', 'best')
+hold off
+
+subplot(2,1,2)
+hold on
+plot(f,20*log10(abs(y)),'r')
+plot(f,20*log10(abs(y1)),'b')
+legend('整数周期','非整数周期','Location', 'best')
 hold off
 
 %意思是看频谱泄露的话改成db会更容易看出来
