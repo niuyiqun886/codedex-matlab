@@ -58,6 +58,7 @@ MATLAB的特殊二维曲线绘制函数：
 | polar(x,y)  | 极坐标图  |
 | loglog(x,y) |  对数图  |
 |  area(x,y)  |  面积图  |
+注：这里的polar已经弃用了，使用polarplot(x,y)
 
 
 
