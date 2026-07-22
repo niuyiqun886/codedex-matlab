@@ -11,3 +11,10 @@ zlabel('z')
 figure(2)
 surf(X,Y,Z)
 
+
+
+% 举例
+% x = [1, 2, 3];
+% y = [4, 5];
+% [X, Y] = meshgrid(x, y)
+% mesh(X,Y)
